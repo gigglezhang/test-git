@@ -13,7 +13,14 @@
 - 设置全局邮箱
   - git config --global user.email "xiaokawayixiao@qq.com"
 
-### 提交代码
+> -global 是值全局设置
+
+### 提交代码到本地仓库
 
 - 添加要提交的代码
   - git add ./git.md
+- 提交代码
+  - git commit -m "commit git.md"  
+
+> -m 是指提示
+
