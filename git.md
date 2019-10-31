@@ -74,4 +74,13 @@
 
 > --hard 覆盖掉本地代码  head~0 表示最新 head~1次新 ...
 
-### 
+### git 分支 branch
+
+- 创建分支
+  - git branch dev
+- 查看分支
+  - git branch
+    - *代表目前分支
+- 切换分支
+  - git checkout dev
+  
