@@ -106,3 +106,12 @@
   - git pull https://github.com/gigglezhang/test-git.git master
 - 克隆代码(会重新创建文件夹，一般第一次用)
   - git clone https://github.com/gigglezhang/test-git.git dev
+
+
+### git ssh 
+- 生成key
+  - ssh-keygen -t rsa -C "xiaokawayixiao@qq.com"
+- 在github上设置
+
+- 用ssh方式上传
+  - git push git@github.com:gigglezhang/test-git.git master
