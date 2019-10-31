@@ -96,4 +96,13 @@
 ### git 提交到git服务器
 
 - 推送代码到服务器master分支上
-- git push https://github.com/gigglezhang/test-git.git master
+  - git push https://github.com/gigglezhang/test-git.git master
+- 推送到dev
+  - git push https://github.com/gigglezhang/test-git.git dev
+
+
+### git 拉取从服务器代码
+- 拉取代码
+  - git pull https://github.com/gigglezhang/test-git.git master
+- 克隆代码(会重新创建文件夹，一般第一次用)
+  - git clone https://github.com/gigglezhang/test-git.git dev
