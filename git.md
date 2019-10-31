@@ -91,4 +91,9 @@
   - git merge dev
 
 - 解决冲突
-  
+  - 需要手动自己去解决后再次commit
+
+### git 提交到git服务器
+
+- 推送代码到服务器master分支上
+- git push https://github.com/gigglezhang/test-git.git master
