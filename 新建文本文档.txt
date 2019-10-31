@@ -1,7 +1,0 @@
-
-### git 版本回退
-
-- 回退到指定版本
-  - git reset --hard head~0
-  
-> --hard 覆盖掉本地代码

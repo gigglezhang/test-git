@@ -66,6 +66,12 @@
 - 回退到指定版本
   - git reset --hard head~0
   - git reset --hard 388f564  (直接指定id)
-  
+
+- 查看操作日志 (可用于版本切换)
+  - git reflog
+    - 388f564 (HEAD -> master) HEAD@{4}: reset: moving to head~1
+    - 17279f0 HEAD@{5}: commit: zjc
+
 > --hard 覆盖掉本地代码  head~0 表示最新 head~1次新 ...
 
+### 
