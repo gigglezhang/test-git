@@ -19,12 +19,43 @@
 
 - 添加要提交的代码
   - git add ./git.md
+  - git add .[/]  (添加所有)
 - 提交代码
   - git commit -m "commit git.md"  
+- 强制提交所有(可以不用add)
+  - git commit -a -m "bbb"
 
-> -m 是指提示
+> -m 是指提示  [] 表示可省略
 
 ### 查看状态
 
 - 查看
   - git status (绿色代表已经add了没有提交，红色代表修改了没有add)
+
+### git 忽略文件
+
+.gitignore中可以设置需要忽略的文件及目录
+
+```.gitignore
+ # 忽略文件
+.idea
+.vscode
+# 忽略目录
+/dist
+# 匹配忽略
+*.js
+```
+
+### git 查看日志
+
+- 查看提交记录
+  - git log (每次提交一次会多一条记录)
+    - commit 927905fdb81c66b571294f95ee098909ae2c21e5 (代表id)
+    - Author: jincheng.zhang <xiaokawayixiao@qq.com>
+    - Date:   Thu Oct 31 15:22:39 2019 +0800
+    - bbb (提交的备注)
+- 查看精简日志
+  - git log --oneline
+    - 927905f aaa  (aaa 备注)
+    - 9cdd8e0 commit git.md
+  - git log 9cdd8e0 (查看具体某一条)
