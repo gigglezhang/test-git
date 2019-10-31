@@ -56,6 +56,16 @@
     - bbb (提交的备注)
 - 查看精简日志
   - git log --oneline
+    - 388f564 (HEAD -> master) hahaha   # 表示目前最新的
     - 927905f aaa  (aaa 备注)
     - 9cdd8e0 commit git.md
   - git log 9cdd8e0 (查看具体某一条)
+
+### git 版本回退
+
+- 回退到指定版本
+  - git reset --hard head~0
+  - git reset --hard 388f564  (直接指定id)
+  
+> --hard 覆盖掉本地代码  head~0 表示最新 head~1次新 ...
+
