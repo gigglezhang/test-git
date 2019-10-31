@@ -83,4 +83,12 @@
     - *代表目前分支
 - 切换分支
   - git checkout dev
+- 删除分支
+  - git branch -d dev
+
+- 将dev合并到主分支
+  - 先 git checkout master
+  - git merge dev
+
+- 解决冲突
   
