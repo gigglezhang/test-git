@@ -115,3 +115,7 @@
 
 - 用ssh方式上传
   - git push git@github.com:gigglezhang/test-git.git master
+
+### 添加远程仓库
+- git remote add origin https://github.com/gigglezhang/express_book.git
+  - 添加远程仓库并起名为origin
